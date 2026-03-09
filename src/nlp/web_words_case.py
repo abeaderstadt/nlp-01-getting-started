@@ -27,12 +27,13 @@ Run from root project folder with:
 # Section 1. Setup and Imports (includes logging deps)
 # ============================================================
 import logging
+import os
 from pathlib import Path
 
 from bs4 import BeautifulSoup
 from datafun_toolkit.logger import get_logger, log_header, log_path
 import matplotlib.pyplot as plt
-import os
+
 os.environ["POLARS_SKIP_CPU_CHECK"] = "1"
 import polars as pl
 import requests
