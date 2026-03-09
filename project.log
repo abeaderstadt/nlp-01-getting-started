@@ -1,0 +1,96 @@
+2026-03-07 09:22:25 | INFO | CI | === RUN START ===
+2026-03-07 09:22:25 | INFO | CI | project=NLP
+2026-03-07 09:22:25 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-07 09:22:25 | INFO | CI | python=3.14.0
+2026-03-07 09:22:25 | INFO | CI | os=Windows 11
+2026-03-07 09:22:25 | INFO | CI | shell=powershell
+2026-03-07 09:22:25 | INFO | CI | cwd=.
+2026-03-07 09:22:25 | INFO | CI | github_actions=False
+2026-03-07 09:22:25 | INFO | CI | START script.....
+2026-03-07 09:22:25 | INFO | CI | ROOT_PATH = .
+2026-03-07 09:22:25 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-07 09:22:25 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-07 09:22:44 | INFO | CI | END....
+2026-03-07 09:30:29 | INFO | CI | === RUN START ===
+2026-03-07 09:30:29 | INFO | CI | project=NLP
+2026-03-07 09:30:29 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-07 09:30:29 | INFO | CI | python=3.14.0
+2026-03-07 09:30:29 | INFO | CI | os=Windows 11
+2026-03-07 09:30:29 | INFO | CI | shell=powershell
+2026-03-07 09:30:29 | INFO | CI | cwd=.
+2026-03-07 09:30:29 | INFO | CI | github_actions=False
+2026-03-07 09:30:29 | INFO | CI | START script.....
+2026-03-07 09:30:29 | INFO | CI | ROOT_PATH = .
+2026-03-07 09:30:29 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-07 09:30:29 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-07 09:30:34 | INFO | CI | END....
+2026-03-07 09:44:37 | INFO | CI | === RUN START ===
+2026-03-07 09:44:37 | INFO | CI | project=NLP
+2026-03-07 09:44:37 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-07 09:44:37 | INFO | CI | python=3.14.0
+2026-03-07 09:44:37 | INFO | CI | os=Windows 11
+2026-03-07 09:44:37 | INFO | CI | shell=powershell
+2026-03-07 09:44:37 | INFO | CI | cwd=.
+2026-03-07 09:44:37 | INFO | CI | github_actions=False
+2026-03-07 09:44:37 | INFO | CI | START script.....
+2026-03-07 09:44:37 | INFO | CI | ROOT_PATH = .
+2026-03-07 09:44:37 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-07 09:44:37 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-07 09:44:42 | INFO | CI | END....
+2026-03-08 17:39:29 | INFO | CI | === RUN START ===
+2026-03-08 17:39:29 | INFO | CI | project=NLP
+2026-03-08 17:39:29 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-08 17:39:29 | INFO | CI | python=3.14.0
+2026-03-08 17:39:29 | INFO | CI | os=Windows 11
+2026-03-08 17:39:29 | INFO | CI | shell=powershell
+2026-03-08 17:39:29 | INFO | CI | cwd=.
+2026-03-08 17:39:29 | INFO | CI | github_actions=False
+2026-03-08 17:39:29 | INFO | CI | START script.....
+2026-03-08 17:39:29 | INFO | CI | ROOT_PATH = .
+2026-03-08 17:39:29 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-08 17:39:29 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-08 17:39:35 | INFO | CI | END....
+2026-03-08 17:40:29 | INFO | CI | === RUN START ===
+2026-03-08 17:40:29 | INFO | CI | project=NLP
+2026-03-08 17:40:29 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-08 17:40:29 | INFO | CI | python=3.14.0
+2026-03-08 17:40:29 | INFO | CI | os=Windows 11
+2026-03-08 17:40:29 | INFO | CI | shell=powershell
+2026-03-08 17:40:29 | INFO | CI | cwd=.
+2026-03-08 17:40:29 | INFO | CI | github_actions=False
+2026-03-08 17:40:29 | INFO | CI | START script.....
+2026-03-08 17:40:29 | INFO | CI | ROOT_PATH = .
+2026-03-08 17:40:29 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-08 17:40:29 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-08 17:40:35 | INFO | CI | ========================
+2026-03-08 17:40:35 | INFO | CI | Pipeline executed successfully!
+2026-03-08 17:40:35 | INFO | CI | ========================
+2026-03-08 17:40:35 | INFO | CI | END main()
+2026-03-08 17:51:34 | INFO | CI | === RUN START ===
+2026-03-08 17:51:34 | INFO | CI | project=NLP
+2026-03-08 17:51:34 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-08 17:51:34 | INFO | CI | python=3.14.0
+2026-03-08 17:51:34 | INFO | CI | os=Windows 11
+2026-03-08 17:51:34 | INFO | CI | shell=powershell
+2026-03-08 17:51:34 | INFO | CI | cwd=.
+2026-03-08 17:51:34 | INFO | CI | github_actions=False
+2026-03-08 17:51:34 | INFO | CI | START script.....
+2026-03-08 17:51:34 | INFO | CI | ROOT_PATH = .
+2026-03-08 17:51:34 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-08 17:51:34 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-08 17:54:11 | INFO | CI | === RUN START ===
+2026-03-08 17:54:11 | INFO | CI | project=NLP
+2026-03-08 17:54:11 | INFO | CI | repo_dir=nlp-01-getting-started
+2026-03-08 17:54:11 | INFO | CI | python=3.14.0
+2026-03-08 17:54:11 | INFO | CI | os=Windows 11
+2026-03-08 17:54:11 | INFO | CI | shell=powershell
+2026-03-08 17:54:11 | INFO | CI | cwd=.
+2026-03-08 17:54:11 | INFO | CI | github_actions=False
+2026-03-08 17:54:11 | INFO | CI | START script.....
+2026-03-08 17:54:11 | INFO | CI | ROOT_PATH = .
+2026-03-08 17:54:11 | INFO | CI | NOTEBOOKS_PATH = notebooks
+2026-03-08 17:54:11 | INFO | CI | SCRIPTS_PATH = scripts
+2026-03-08 17:54:17 | INFO | CI | ========================
+2026-03-08 17:54:17 | INFO | CI | Pipeline executed successfully!
+2026-03-08 17:54:17 | INFO | CI | ========================
+2026-03-08 17:54:17 | INFO | CI | END main()
