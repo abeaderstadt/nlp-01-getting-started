@@ -7,7 +7,6 @@
     // ============================================================
     // === PYTHON DEVELOPMENT ===
     // ============================================================
-    "ms-python.python", // Core Python support
     "ms-python.vscode-pylance", // Fast IntelliSense and type checking
     "charliermarsh.ruff", // Modern formatting and linting (replaces black + isort + flake8)
     // ============================================================
