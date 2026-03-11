@@ -67,7 +67,7 @@ log_path(LOG, "SCRIPTS_PATH", SCRIPTS_PATH)
 # The Shakespeare page is simple and stable.
 # The Wikipedia page is interesting, but requires a User-Agent header.
 # url: str = "https://shakespeare.mit.edu/romeo_juliet/full.html"
-url: str = "https://en.wikipedia.org/wiki/Natural_language_processing"
+url: str = "https://en.wikipedia.org/wiki/Shih_Tzu"
 
 # Some sites reject requests that look like anonymous scripts.
 # This header helps the request look more like a normal browser visit.
@@ -108,8 +108,19 @@ print(url)
 # Call BeautifulSoup with the raw HTML and a parser (lxml is fast and lenient).
 soup: BeautifulSoup = BeautifulSoup(html, "lxml")
 
-print("HTML parsed successfully.")
+# Remove navigation, headers, footers, tables, infoboxes, portal links, and hatnotes
+for element in soup.select(
+    "#mw-head, #mw-navigation, #footer, .navbox, .metadata, .vertical-navbox, .portal, .hatnote"
+):
+    element.decompose()  # remove the element
+
+# Extract only the main article content
+main_content = soup.select_one("#mw-content-text")
+text = main_content.get_text(separator=" ") if main_content else ""
+
+print("HTML parsed and main content extracted successfully.")
 print(type(soup))
+print(f"Length of article text: {len(text):,} characters")
 
 
 # ============================================================
@@ -135,8 +146,8 @@ print(text[:1000])
 words: list[str] = text.split()
 count_of_words: int = len(words)
 
-print("First 20 raw words:")
-print(words[:20])
+print("First 10 raw words:")
+print(words[:10])
 print(f"Total raw words: {count_of_words:,}")
 
 # Convert all words to lowercase so "Language" and "language"
@@ -153,8 +164,8 @@ clean_words: list[str] = [
 ]
 count_of_clean_words: int = len(clean_words)
 
-print("First 20 cleaned words:")
-print(clean_words[0:20])
+print("First 10 cleaned words:")
+print(clean_words[0:10])
 print(f"Total cleaned words: {count_of_clean_words:,}")
 
 
@@ -183,9 +194,9 @@ print(freq_df.head(20))
 # Section 7. Build "Most Frequent Words" Bar Chart
 # ============================================================
 
-# Focus on the 10 most common words for a simple bar chart.
-# Use head(10) to get the top 10 rows of the frequency DataFrame.
-top_df: pl.DataFrame = freq_df.head(10)
+# Focus on the 15 most common words for a simple bar chart.
+# Use head(15) to get the top 15 rows of the frequency DataFrame.
+top_df: pl.DataFrame = freq_df.head(15)
 
 # Make the figure size larger for better readability.
 # 10 inches wide by 5 inches tall is a common size for bar charts.
