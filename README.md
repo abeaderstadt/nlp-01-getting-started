@@ -133,14 +133,17 @@ To make this project my own, I made several small modifications to the example n
 
 First, I changed the input webpage from the original example site to the Wikipedia page for the Shih Tzu dog breed. This allows the analysis to run on a different dataset and produces results based on the Shih Tzu article text.
 
-Next, I modified the text cleaning step to improve preprocessing. I added logic to remove hyphens during cleaning and filtered out common navigation words from the Wikipedia page such as "main", "menu", and "sidebar" to reduce noise in the dataset.
+I also removed entire sections of the HTML that correspond to navigation, headers, and other UI elements before extracting the text with BeautifulSoup.
 
-I also added a quick data check by printing the total number of raw words and the total number of cleaned words. This helps verify how much text is removed.
+Next, I modified the text cleaning step by adding logic to remove hyphens during cleaning and filtering out common navigation words that were still present, such as "main", "menu", and "sidebar", to reduce noise in the dataset.
+
+I added a quick data check by printing the total number of raw words and the total number of cleaned words to verify how much text is removed.
 
 To make the output easier to interpret, I adjusted the notebook to print the first 10 words instead of 20 when previewing the text. I also increased the number of words displayed in the bar chart of most frequent terms from 10 to 15 so more common terms from the article can be observed.
 
 After running the notebook with these changes, the frequency table, bar chart, and word cloud now reflect the vocabulary from the Shih Tzu Wikipedia article instead of the original example site.
 
+
 ## Example Artifact (Output)
 
-![Word Cloud Example](docs/images/word_cloud_example.png)
+![Shih Tzu Word Cloud Example](docs/images/shih_tzu_wordcloud.png)
