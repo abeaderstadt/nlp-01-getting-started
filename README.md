@@ -7,8 +7,8 @@ This repository contains my custom work for the course starter project. The note
 
 I first ran the provided example notebook and then copied it to create my own version where I experimented with modifications and analysis.
 
-Starter file: web_words_case.ipynb
-Custom file: web_words_beaderstadt.ipynb
+- Starter file: web_words_case.ipynb
+- Custom file: web_words_beaderstadt.ipynb
 
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
