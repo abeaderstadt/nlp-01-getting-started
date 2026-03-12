@@ -1,4 +1,15 @@
 # nlp-01-getting-started
+Alissa Beaderstadt - Web Mining and Applied NLP
+
+Graduate Student - Data Analytics
+
+This repository contains my custom work for the course starter project. The notebook explores text pulled from a webpage and performs a basic NLP word frequency analysis.
+
+I first ran the provided example notebook and then copied it to create my own version where I experimented with modifications and analysis.
+
+Starter file: web_words_case.ipynb
+Custom file: web_words_beaderstadt.ipynb
+
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
@@ -127,7 +138,7 @@ git push -u origin main
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
 
-## Project Modification
+## My Project Modifications
 
 To make this project my own, I made several small modifications to the example notebook.
 
