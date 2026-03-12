@@ -6,7 +6,7 @@ I’m just getting started exploring web mining and applied natural language pro
 
 Use the navigation on the left to explore module-specific materials.
 
-This project is a learning playground where I try out different techniques, track my progress, and reflect on what works (and what doesn’t!).
+This project is a learning playground where I try out different techniques, track my progress, and reflect on what works (and what doesn’t).
 
 ## How-To Guide
 
