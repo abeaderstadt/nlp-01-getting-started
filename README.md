@@ -1,7 +1,5 @@
 # nlp-01-getting-started
-Alissa Beaderstadt - Web Mining and Applied NLP
-
-Graduate Student - Data Analytics
+Alissa Beaderstadt - Graduate Student - Data Analytics
 
 This repository contains my custom work for the course starter project. The notebook explores text pulled from a webpage and performs a basic NLP word frequency analysis.
 
